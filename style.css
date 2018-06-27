@@ -200,6 +200,8 @@ margin-right: 60px;
 
 .bg-color{
 		background-color: #F8FAFF;
+		height: auto;
+		width: auto;
 }
 
 .col-centered{
