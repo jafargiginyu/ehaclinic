@@ -137,8 +137,14 @@
   border: 0px;
   border-radius: 0.3rem;
   width: 99%;
-  margin-left: 50%;
+  margin-left:  50%;
+  margin-right: 50%;
+  margin-top: 5%;
+
+
 }
+
+
 
 .card-header {
   background: #212121;
@@ -190,7 +196,9 @@
 
 
 .testimonial-images{
-margin-right: 60px;
+					margin-right: 60px;
+					width: 110px;
+  					height: 116.09px;
 }
 
 
@@ -261,6 +269,9 @@ margin-right: 60px;
 		  border: 0px;
 		  border-radius: 0.3rem;
 		  width: 99%;
-		  margin-left: 0;
+		  margin-left: 0px;
+		  
+
+
 }
 }
