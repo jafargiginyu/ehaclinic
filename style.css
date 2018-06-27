@@ -1,73 +1,69 @@
-.btn-apply {
-  border: 2px solid;
-  border-radius: 100px;
-  width: 160px;
-  height: 40px;
-  color: #fff;
+.btn-apply{
+		  border: 2px solid;
+		  border-radius: 100px;
+		  width: 160px;
+		  height: 40px;
+		  color: #fff;
 }
 
-.btn-center {
-    text-align: center;
+.btn-center{
+    	   text-align: center;
 }
 
-.button {
-    position: absolute;
-    top: 50%;
-}
-
-
-.wrapper {
-   width: 100%;
+.button{
+	    position: absolute;
+	    top: 50%;
 }
 
 
+.wrapper{
+   		width: 100%;
+}
 
 .navbar-default{
 	
-	background-color: transparent;
-
+			   background-color: transparent;
 }
 
 .mt-top{
-	margin-top: 20px;
+		margin-top: 20px;
 }
 
 .content-text {
-  color: #434F68;
-  font-family: OpenSans;
-  font-size: 36px;
-  font-weight: 600;
-  letter-spacing: 0.25px;
-  line-height: 43px;
-  text-align: left;
+			  color: #434F68;
+			  font-family: OpenSans;
+			  font-size: 36px;
+			  font-weight: 600;
+			  letter-spacing: 0.25px;
+			  line-height: 43px;
+			  text-align: left;
 }
 
 
 .btn-border{
-border-radius:50px;
-background-color: #00ACE6;
-border:0;
-line-height: 0px;
-font-size: 14px;
-color: #fff;
-height: 80px;
-width: 900px;
-margin-top: -5%;
+			border-radius:50px;
+			background-color: #00ACE6;
+			border:0;
+			line-height: 0px;
+			font-size: 14px;
+			color: #fff;
+			height: 80px;
+			width: 900px;
+			margin-top: -5%;
 }
 
 .btn-border:hover{
-	background-color: unset;
+				 background-color: unset;
 
 }
 
 .left{
-	float: left;
+	 float: left;
 }
 
 .right{
-	float: right;
+	  float: right;
 }
-
 
 .img{
 	width: 700px;
@@ -80,48 +76,164 @@ margin-top: -5%;
     top: 5px;
     z-index: -1;
     border-top-left-radius: 400px;
-    
+}
 
-    
+.alignleft{
+			float: left;
+}
 
-
+.alignright{
+			float: right;
 }
 
 
 
-.alignleft {
-	float: left;
+.container-fluid-background{
+				background-color: #F8FAFF;
+			    width: auto;
+			    height: auto;
 }
-.alignright {
-	float: right;
+
+
+.testimonial-background-color{
+							background-color: #fff; 
+							height: 400px; 
+							margin-left: 10px;"
 }
+
+.paragrahp{
+  margin-top: 20px;
+}
+
+
+.card{
+ 	 width: 100%;
+}
+
+
+
+.shadow {
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  transition: box-shadow 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+}
+  .shadow:hover {
+    box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2), 0px 24px 38px 3px rgba(0, 0, 0, 0.14), 0px 9px 46px 8px rgba(0, 0, 0, 0.12);
+  }
+
+.shadow-nohover {
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  transition: box-shadow 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.box {
+  background: #424242;
+  border-radius: 0.3rem;
+  height: 10rem;
+  width: 10rem;
+}
+
+.card{
+  background: #fff;
+  border: 0px;
+  border-radius: 0.3rem;
+  width: 99%;
+  margin-left: 50%;
+}
+
+.card-header {
+  background: #212121;
+}
+  .card-header:before {
+    content: '';
+    position: absolute;
+    right: 100%;
+    border: 1rem solid transparent;
+    border-right: 1.25rem solid #212121;
+  }
+
+
+  .media-body{
+			    font-size: 16px;
+			    font-weight: 400px;
+			    text-align: center;
+			    line-height: 19px;
+			    font-family: 'SFUIText-Regular' 'Roboto' tahoma;
+			    color: #48446F;
+			    width: 300px;
+  				height: 335px;
+  				padding:0;
+
+  }
+
+
+
+.mt-0{
+	    font-weight: 700px;
+	    font-size: 18px;
+	    line-height:22px;
+	    text-align: center;
+	    color:  #48446F;
+	    margin-left: 70px;
+  }
+
+
+.mt-0-1{
+	    font-weight: 700px;
+	    font-size: 18px;
+	    line-height:22px;
+	    text-align: default;
+	    color:  #48446F;
+	    margin-left: 15px;
+  }
+
+
+
+
+.testimonial-images{
+margin-right: 60px;
+}
+
+
+.textimonial-text{
+  					margin-left: 60px;
+}
+
+.bg-color{
+		background-color: #F8FAFF;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
 
 
 
 @media only screen and (max-width: 900px) {
    .btn-border{
-border-radius:50px;
-background-color: #00ACE6;
-border:0;
-line-height: 0px;
-font-size: 8px;
-color: #fff;
-height: 100%;
-width: 100%;
-margin-top: -5%;
+				border-radius:50px;
+				background-color: #00ACE6;
+				border:0;
+				line-height: 0px;
+				font-size: 8px;
+				color: #fff;
+				height: 100%;
+				width: 100%;
+				margin-top: -5%;
 }
 
 .btn-border:hover{
-	background-color: unset;
+					background-color: unset;
 
 }
 
 .left{
-	float: left;
+		float: left;
 }
 
 .right{
-	float: right;
+		float: right;
 }
 
 
@@ -140,5 +252,13 @@ margin-top: -5%;
     
 
 
+	}
+
+	.card{
+		  background: #fff;
+		  border: 0px;
+		  border-radius: 0.3rem;
+		  width: 99%;
+		  margin-left: 0;
 }
 }
