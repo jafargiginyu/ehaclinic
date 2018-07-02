@@ -9,6 +9,7 @@
 		  width: 160px;
 		  height: 40px;
 		  color: #fff;
+		  word-wrap:break-word;
 }
 .btn-white-color{
 	color: #fff;
@@ -44,8 +45,11 @@
 		  width: 153px;
 		  height: 53px;
 		  text-align: left;
+		  word-wrap:break-word;
 
 }
+
+
 
 #oval_parent{
     background:white;
@@ -347,6 +351,7 @@
 				width: auto;
 				margin-top: -5%;
 				text-align: center;
+				word-wrap:break-word;
 
 }
 
