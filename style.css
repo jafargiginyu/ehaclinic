@@ -136,9 +136,36 @@
 }
 
 .btn-border:hover{
-				 background-color: unset;
+				 background-color: gray;
 
 }
+
+
+.btn-small {
+  background-color: #F5F9FF;
+  border-radius: 26.5px;
+  width: 153px;
+  height: 53px;
+  text-align: center; 
+  margin-top: 5%;
+}
+
+
+
+
+.btn-middle{
+			border-radius:50px;
+			background-color: #00ACE6;
+			border:0;
+			line-height: 0px;
+			font-size: 14px;
+			color: #fff;
+			height: 80px;
+			width: 90px;
+			margin-top: -5%;
+}
+
+
 
 .left{
 	 float: left;
@@ -345,18 +372,19 @@
 				background-color: #00ACE6;
 				border:0;
 				line-height: 0px;
-				font-size: 8px;
+				font-size: 5px;
 				color: #fff;
 				height: 120px;
-				width: auto;
 				margin-top: -5%;
-				text-align: center;
-				word-wrap:break-word;
-
+				 width:150px;
+			    text-align:right;
+			    cursor:pointer;
 }
 
+
+
 .btn-border:hover{
-					background-color: unset;
+					background-color: gray;
 
 }
 
