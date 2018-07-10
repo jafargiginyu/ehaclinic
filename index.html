@@ -4,18 +4,19 @@
     <title>EHA-Clinic</title>
     <link rel="icon" href="images/m2.jpg">
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-  
     <!--Container Main-->
-  <div class="container">
+  <div class="container-fluid">
 		<div class="col-md-12">
-			<nav class="navbar container navbar-default">
+			<nav class="navbar container-fluid navbar-default">
         <div class="container-fluid">
       	  <div class="navbar-header">
       	   	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="  #bs-example-navbar-collapse-1" aria-expanded="false">
@@ -43,7 +44,7 @@
 
 	<div class="container-fluid mt-top">
 		<div>
-  			<div class="row">
+  			<div class="row" style="">
           <div class="col-md-offset-1 col-md-4">
             <span class="content-text">
             <p>We care about your health.</p>
@@ -51,11 +52,14 @@
             <div class="mt-top">
             <p>Our exceptionally skilled medical team is dedicated to providing compassionate and high-quality healthcare services to all our patients.</p>
             <p>Our care is collaborative, coordinated, and accessible. The right care is provided at the right time and the right place.</p>	
+
           </div>
+
         </div>
-    				 
-          <div class="col-md-7" style="padding-right: 0px;">
-    	    	  <span class="pull-right"><img class="img img-responsive" src="images/d6.jpg"></span>
+    				
+          <div class="col-md-7" style="padding-right: 0;">
+    	    	  <span class="pull-right"><img class="img img-responsive" src="images/hero-image-clinic_720.png"> 
+              </span>
           </div>
         </div>
 	  </div>
@@ -65,14 +69,11 @@
 		
 	<div class="row btn-center">
 		    <div class="col-md-12">			 
-    	        <button type="button" class="btn btn-lg btn-border ">
-    	            <span class="left"><a class="btn-white-color" href="#">
-    	              	<h4>Book an appointment</h4> <br>Lorem Ipsum is simply dummy text of the printing and</a>
-    	           </span>
-    	            <span class="right">
-                    <a class="btn-white-color" href="#"><h4>Find a doctor</h4><br>Lorem Ipsum is simply dummy text of the printing and</a>
-              	</span>
-             </button>
+    	       <div class="btn-group" role="group" aria-label="Basic example" style="margin-top: -260px;">      
+               <a id="new-board-btn-middle" class="btn btn-primary" >Book an Appointment<br />Lorem Ipsum is simply dummy text of the printing and</a>
+
+               <a id="new-board-btn-middle-b" class="btn btn-primary">Find a Doctor <br />Lorem Ipsum is simply dummy text of the printing and</a>
+           </div>
         </div>
       </div>
     </div>
@@ -82,9 +83,9 @@
 
   <div class="container-fluid container-fluid-background testimonial-background-color paragrahp bg-color">
 <!--Card-->
-    <div class="col-12">
+    <div class="col-md-12 paragrahp">
       <h3 class="text-center"><strong><span>Our</span> <span class="text-primary">Services</span></strong></h3>
-      <p class="text-center">We offer outpatient clinic services, family planning e.t.c	</p>
+      <p class="text-center paragrahp">We offer outpatient clinic services, family planning e.t.c	</p>
     </div>
             
   <div class="row center-block">
@@ -292,7 +293,7 @@
 
 
 
-<div class="cotainer" style="background-color: #F5F9FF;">
+<div class="cotainer">
   <div id="oval_parent">
   <div id="oval">
     <div class="text-success"> <h3><strong>We are available <span class="text-primary">24/7</span></strong></h3>
@@ -300,34 +301,32 @@
     
     <div class="mt-top-4">
 		  <div class="row btn-center">
-			    <div class="col-md-12">			 
-    		    <button type="button" class="btn btn-lg btn-border ">
-    		      <span class="left"><a class="text-warning" href="#">
-    			      <h4 class="white-color">Need a Consultation</h4> </a>
-    	        </span>
-    	         <span class="right"><a href="#"><h4 class="white-color">Contact Us</h4></a>
-    	       </span>
-            </button>
+			    <div class="col-md-12">
+          <div class="btn-group" role="group" aria-label="Basic example">			 
+    		   <a id="new-board-btn" class="btn btn-primary" ><span id="new-board-btn-span-a">Need a consultation?</span></a>
+
+           <a id="new-board-btn-b" class="btn btn-primary"><span id="new-board-btn-span">Contac Us</span></a>
+           </div>
           </div>
         </div>
      </div>
 
   <div class="footer-text">
-    <div class="row">
-	    <div class="col-md-3">
+    <div class="row footer-content">
+	    <div class="col-md-3 text-left">
 	     	<img src="images/eha-clinic-logo.svg"><br />
-	      <p class="text-center">We are driven by the desire to make an impact in public health and also provide medical services.</p>
+	      <p>We are driven by the desire to make an impact in public health and also provide medical services.</p>
 	    </div>
 
-	    <div class="col-md-3">
+	    <div class="col-md-3 text-left">
 	       <strong> About Us</strong><p> <p>About EHA Clinics</p><p>Our Service Difference</p><p>Our Staff</p></p>
 	    </div>
 
-	    <div class="col-md-3">
+	    <div class="col-md-3 text-left">
             <strong> Services</strong><p> <p>General Outpatient</p><p>Family Planning</p><p>Home Care</p></p>
 	    </div>
 
-	    <div class="col-md-3"><strong> Contact Us</strong>
+	    <div class="col-md-2 text-left"><strong> Contact Us</strong>
         <p> 
            <p class="text-primary">independence.kano@eha.ng</p>
 	    	 	 <p>+234 900 93995500</p>
